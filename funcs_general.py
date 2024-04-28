@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 import math
 from random import random
-import pyautogui # НЕ УДАЛЯТЬ, РАЗБЛОКИРОВАТЬ, ЕСЛИ ИСПОЛЬЗУЕТСЯ В МЕСТНОМ ПРОЕКТЕ
+# import pyautogui # НЕ УДАЛЯТЬ, РАЗБЛОКИРОВАТЬ, ЕСЛИ ИСПОЛЬЗУЕТСЯ В МЕСТНОМ ПРОЕКТЕ
 from time import sleep
 import os
 from pathlib import Path
