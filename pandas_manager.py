@@ -3070,10 +3070,14 @@ class PandasManager (ClassIni):
 
 
 
-
-
-
-
+    def create_empty_frame_with_given_columns_names_pm_static (listColumnsNames):
+        """ 
+        Создать пустой фрей с заданными названиями колонок
+        """
+        
+        df = pd.DataFrame(columns=listColumnsNames)
+        
+        return df
 
 
 
